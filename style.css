@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'HarryP';
+  src: url('fonts/harryp.ttf') format('truetype');
+}
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -31,12 +36,13 @@ header {
 }
 
 .gab {
-  font-family: 'Magic School One', sans-serif;
-  font-size: 2.2em;
-  margin: 0;
-  margin-top: 10px;
+  font-family: 'HarryP', serif;
+  font-size: 3.5em;
   color: #423880;
+  text-align: center;
+  margin-top: 10px;
 }
+
 
 .header-center {
   flex: 1;
