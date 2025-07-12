@@ -24,10 +24,20 @@ header {
 }
 
 .titulo {
-  font-size: 2.5em;
+  font-family: 'Great Vibes', cursive;
+  font-size: 3em;
   color: #37582D;
   margin: 0;
 }
+
+.gab-img {
+  display: block;
+  margin: 0 auto;
+  margin-top: -10px;
+  width: auto;
+  height: 60px;
+}
+
 
 .gab {
   font-family: 'Magic School One', cursive;
