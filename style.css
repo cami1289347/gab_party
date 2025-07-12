@@ -1,6 +1,10 @@
 @font-face {
   font-family: 'HarryP';
-  src: url('fonts/harryp.ttf') format('truetype');
+  src: url('fonts/HARRYP__.TTF') format('truetype');
+}
+@font-face {
+  font-family: 'JovialMood';
+  src: url('fonts/Jovial Mood.otf') format('truetype');
 }
 
 body {
@@ -29,15 +33,16 @@ header {
 }
 
 .titulo {
-  font-family: 'Great Vibes', cursive;
+  font-family: 'JovialMood', cursive;
   font-size: 3em;
   color: #37582D;
   margin: 0;
+  letter-spacing: 2px;
 }
 
 .gab {
   font-family: 'HarryP', serif;
-  font-size: 3.5em;
+  font-size: 5em;
   color: #423880;
   text-align: center;
   margin-top: 10px;
