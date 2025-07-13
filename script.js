@@ -9,10 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const box = document.createElement('div');
     box.classList.add('gift-box');
 
-    box.innerHTML = `
-      <img src="img/caja.png" alt="Caja ${i}" class="box-img" />
-      <div class="box-number">${i}</div>
-    `;
+   box.innerHTML = `
+  <img src="img/caja.png" alt="Caja ${i}" class="box-img" />
+  <div class="box-number">${i}</div>
+`;
+
 
     box.addEventListener('click', () => {
       box.classList.add('opened');
