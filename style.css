@@ -45,26 +45,34 @@ header {
   font-size: 5em;
   color: #423880;
   text-align: center;
-  margin-top: 10px;
   letter-spacing: 4px;
 }
 
 
-.header-center {
-  flex: 1;
-  text-align: center;
-}
-
 .encabezado {
   display: flex;
+  align-items: center; /* Alinea verticalmente al centro */
   justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
+  padding: 0 20px;
 }
 
+.header-center {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%; /* O un valor como 120px */
+}
+
+
 .decor-img {
-  width: 70px;
+  width: 100px; /* Ajusta tamaño si es necesario */
   height: auto;
+  object-fit: contain;
 }
 
 
