@@ -23,11 +23,6 @@ header {
   margin-bottom: 10px;
 }
 
-.decor-img {
-  width: 70px;
-  height: auto;
-}
-
 .header-text {
   flex: 1;
 }
