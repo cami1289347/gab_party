@@ -23,3 +23,17 @@ for (let i = 1; i <= 24; i++) {
 
   giftGrid.appendChild(box);
 }
+
+// ✅ Botón cerrar modal
+const closeBtn = document.getElementById('closeBtn');
+
+closeBtn.addEventListener('click', () => {
+  modal.style.display = 'none';
+});
+
+// ✅ También cierra si haces clic fuera de la caja sorpresa
+modal.addEventListener('click', (e) => {
+  if (e.target === modal) {
+    modal.style.display = 'none';
+  }
+});
