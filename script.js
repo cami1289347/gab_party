@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const sound = document.getElementById('sound');
   const closeBtn = document.getElementById('closeBtn');
 
-  // Crear las 24 cajas
   for (let i = 1; i <= 24; i++) {
     const box = document.createElement('div');
     box.classList.add('gift-box');
@@ -17,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     box.addEventListener('click', () => {
       box.classList.add('opened');
-      surpriseImg.src = `img/sorpresa${i}.png`;
+      surpriseImg.src = \`img/sorpresa\${i}.png\`;
       modal.style.display = 'flex';
       sound.currentTime = 0;
       sound.play();
@@ -27,16 +26,13 @@ document.addEventListener('DOMContentLoaded', () => {
     giftGrid.appendChild(box);
   }
 
-  // Cerrar modal con botón ❌
   closeBtn.addEventListener('click', () => {
     modal.style.display = 'none';
   });
 
-  // Cerrar modal haciendo clic fuera del contenido
   modal.addEventListener('click', (e) => {
     if (!e.target.closest('.modal-content')) {
       modal.style.display = 'none';
     }
   });
 });
-
