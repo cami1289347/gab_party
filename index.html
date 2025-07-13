@@ -23,20 +23,23 @@
 
   <div class="gift-grid">
     <!-- 24 cajas -->
-    <!-- Solo repito 3 como ejemplo. Tú copia/pega para las 24 -->
-    <div class="gift-box" data-index="1">
-      <div class="box-body">
-        <div class="lid"></div>
-        <div class="box-content">
-          <img src="img/caja1.png" class="gift-image" alt="Sorpresa 1" />
-        </div>
-      </div>
-    </div>
-    <!-- Repite hasta caja24.png -->
+    <!-- Se genera con JS para que tenga lógica numérica -->
   </div>
 
+  <!-- Modal de apertura central -->
+  <div class="modal" id="modal">
+    <div class="modal-box">
+      <div class="modal-lid" id="modalLid"></div>
+      <div class="modal-content">
+        <img src="" alt="Sorpresa" id="modalImage" />
+      </div>
+      <button id="closeModal">✖</button>
+    </div>
+  </div>
+
+
   <footer>
-    <p class="dedicatoria">Con cariño los Ferly's pequeños</p>
+    <p class="dedicatoria">Con cariño los Ferly's Tequeños</p>
   </footer>
 
   <audio id="sound" src="audio/open.mp3" preload="auto"></audio>
