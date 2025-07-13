@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     box.addEventListener('click', () => {
       box.classList.add('opened');
-      surpriseImg.src = \`img/sorpresa\${i}.png\`;
+      surpriseImg.src = `img/sorpresa${i}.png`;
       modal.style.display = 'flex';
       sound.currentTime = 0;
       sound.play();
