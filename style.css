@@ -67,7 +67,7 @@ header {
 }
 
 
-..gift-grid {
+.gift-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   gap: 20px;
@@ -95,64 +95,18 @@ header {
 
 .box-number {
   position: absolute;
-  top: 5px;
-  right: 8px;
-  font-size: 1.2em;
-  font-weight: bold;
-  color: white;
-  text-shadow: 1px 1px 3px black;
-  z-index: 2;
-}
-
-
-
-/* Cintas doradas */
-.ribbon-horizontal,
-.ribbon-vertical {
-  position: absolute;
-  background-color: gold;
-}
-
-.ribbon-horizontal {
   top: 50%;
-  left: 0;
-  width: 100%;
-  height: 12px;
-  transform: translateY(-50%);
-}
-
-.ribbon-vertical {
   left: 50%;
-  top: 0;
-  width: 12px;
-  height: 100%;
-  transform: translateX(-50%);
-}
-
-/* Moño superior */
-.bow {
-  position: absolute;
-  top: -10px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 40px;
-  height: 40px;
-  background: radial-gradient(circle, gold 60%, #d4af37);
-  border-radius: 50%;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
-  z-index: 2;
-}
-
-/* Número */
-.box-number {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  font-size: 1.4em;
+  transform: translate(-50%, -50%);
+  font-size: 1.8em;
   font-weight: bold;
   color: white;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 2px 2px 5px black;
+  z-index: 2;
+  pointer-events: none;
 }
+
+
 
 
 .gift-box.opened {
