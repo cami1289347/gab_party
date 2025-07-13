@@ -3,7 +3,7 @@
   src: url('fonts/HARRYP__.TTF') format('truetype');
 }
 @font-face {
-  font-family: 'SilverMelody';
+  font-family: 'Silver Melody';
   src: url('fonts/Silver Melody.otf') format('opentype');
 }
 
@@ -33,7 +33,7 @@ header {
 }
 
 .titulo {
-  font-family: 'SilverMelody', cursive;
+  font-family: 'Silver Melody', cursive;
   font-size: 3em;
   color: #37582D;
   margin: 0;
