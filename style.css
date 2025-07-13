@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: 'SilverMelody';
-  src: url('fonts/Silver Melody.otf') format('truetype');
+  src: url('fonts/Silver Melody.otf') format('opentype');
 }
 
 body {
