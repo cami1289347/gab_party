@@ -22,18 +22,32 @@
   <p class="subtitulo">Haz clic en cada cajita para descubrir tu sorpresa</p>
 
   <div class="gift-grid">
-    <!-- 24 cajas -->
-    <!-- Se genera con JS para que tenga lógica numérica -->
+    <div class="gift-box" id="box1">
+      <div class="box-body">
+        <div class="box-face top"></div>
+        <div class="box-face front"></div>
+        <div class="box-face left"></div>
+        <div class="box-face right"></div>
+        <div class="box-face back"></div>
+        <div class="box-face bottom"></div>
+      </div>
+      <div class="box-number">1</div>
+    </div>
   </div>
 
-  <!-- Modal de apertura central -->
   <div class="modal" id="modal">
-    <div class="modal-box">
-      <div class="modal-lid" id="modalLid"></div>
-      <div class="modal-content">
-        <img src="" alt="Sorpresa" id="modalImage" />
+    <div class="modal-box" id="animatedBox">
+      <div class="box-3d">
+        <div class="box-face top"></div>
+        <div class="box-face front"></div>
+        <div class="box-face left"></div>
+        <div class="box-face right"></div>
+        <div class="box-face back"></div>
+        <div class="box-face bottom"></div>
       </div>
-      <button id="closeModal">✖</button>
+      <img id="surpriseImg" src="img/sorpresa1.png" alt="Sorpresa" />
+      <button id="closeBtn">❌</button>
+      <canvas id="confetti"></canvas>
     </div>
   </div>
 
