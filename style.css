@@ -43,15 +43,15 @@ header {
   letter-spacing: 4px;
 }
 
-
 .encabezado {
   width: 100%;
-  height: auto; /* Permite que crezca según la imagen */
-  background-image: url('img/banner.png'); /* tu imagen aquí */
-  background-size: contain; /* ¡Para que NO la recorte! */
-  background-position: top center;
+  height: 260px; /* Altura fija más razonable */
+  background-image: url('img/banner.png');
+  background-size: cover; /* Cambiado de contain a cover */
+  background-position: center;
   background-repeat: no-repeat;
 }
+
 
 .header-center {
   text-align: center;
