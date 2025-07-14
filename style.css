@@ -51,7 +51,6 @@ header {
   background-size: contain; /* ¡Para que NO la recorte! */
   background-position: top center;
   background-repeat: no-repeat;
-  aspect-ratio: 16 / 6; /* Ajusta proporción de banner: ancho/alto */
 }
 
 .header-center {
