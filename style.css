@@ -47,7 +47,7 @@ header {
 .encabezado {
   width: 100%;
   height: auto; /* Permite que crezca según la imagen */
-  background-image: url('img/banner.pgn'); /* tu imagen aquí */
+  background-image: url('img/banner.png'); /* tu imagen aquí */
   background-size: contain; /* ¡Para que NO la recorte! */
   background-position: top center;
   background-repeat: no-repeat;
