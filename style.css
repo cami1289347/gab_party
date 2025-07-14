@@ -45,10 +45,13 @@ header {
 
 
 .encabezado {
-  display: flex;
-  align-items: center; /* Alinea verticalmente al centro */
-  justify-content: space-between;
-  padding: 0 20px;
+  width: 100%;
+  height: auto; /* Permite que crezca según la imagen */
+  background-image: url('img/banner.pgn'); /* tu imagen aquí */
+  background-size: contain; /* ¡Para que NO la recorte! */
+  background-position: top center;
+  background-repeat: no-repeat;
+  aspect-ratio: 16 / 6; /* Ajusta proporción de banner: ancho/alto */
 }
 
 .header-center {
