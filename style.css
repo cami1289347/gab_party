@@ -134,21 +134,10 @@ header {
   z-index: 1000;
 }
 
-.modal-content {
-  background: white;
-  padding: 20px;
-  border-radius: 15px;
-  text-align: center;
-  animation: popUp 0.4s ease-out;
-  max-width: 90%;
-  max-height: 90%;
-  box-sizing: border-box;
-  position: relative;
-}
 
 #surpriseImg {
-  max-width: 90vw;
-  max-height: 80vh;
+  max-width: 93vw;
+  max-height: 90vh;
   width: auto;
   height: auto;
   object-fit: contain;
