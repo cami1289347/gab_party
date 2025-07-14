@@ -13,14 +13,14 @@ body {
   background: linear-gradient(to right, #fff, #ffeaf4);
   color: #333;
   text-align: center;
-  padding: 20px;
+  padding: 0px;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .header-text {
@@ -144,20 +144,42 @@ header {
 }
 
 #surpriseImg {
-  max-width: 250px;
-  max-height: 250px;
+  max-width: 90vw;
+  max-height: 80vh;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+
+.modal-content {
+  background: transparent;
+  padding: 0;
+  border-radius: 15px;
+  text-align: center;
+  animation: popUp 0.4s ease-out;
+  max-width: 95vw;
+  max-height: 95vh;
+  box-sizing: border-box;
+  position: relative;
 }
 
 #closeBtn {
-  margin-top: 10px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
   background: crimson;
   color: white;
   border: none;
-  border-radius: 8px;
-  font-size: 18px;
-  padding: 5px 10px;
+  border-radius: 50%;
+  font-size: 22px;
+  padding: 6px 10px;
   cursor: pointer;
+  z-index: 10;
 }
+
 
 @keyframes popUp {
   0% { transform: scale(0.5); opacity: 0; }
