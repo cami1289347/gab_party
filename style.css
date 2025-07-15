@@ -133,6 +133,12 @@ header {
   align-items: center;
   z-index: 1000;
 }
+.creditos-img {
+  display: block;
+  margin: 20px auto 0;
+  max-width: 300px; /* o lo que desees */
+  height: auto;
+}
 
 
 #surpriseImg {
